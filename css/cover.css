@@ -23,12 +23,18 @@ a:hover {
 /*
  * Base structure
  */
-
 html,
 body {
+/*css for full size background image*/
+  background: url(/img/xerus_background.png) no-repeat center center fixed; 
+  background-size: cover;
   height: 100%;
   background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0,0,0,.8);
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -52,6 +58,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 
 /* Padding for spacing */
 .inner {
@@ -108,7 +115,6 @@ body {
 /*
  * Cover
  */
-
 .cover {
   padding: 0 20px;
 }
@@ -158,6 +164,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 1200px;
   }
 }
